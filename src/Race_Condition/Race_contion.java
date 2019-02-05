@@ -40,7 +40,7 @@ public class Race_contion {
         public First(){
             t = new Thread();
             t.setName("First Thread");
-//            t.start();
+           t.start();
         }
 
         @Override
@@ -57,7 +57,7 @@ public class Race_contion {
         public Second(){
             this.t = new Thread();
             t.setName("Second Thread");
-//            t.start();
+            t.start();
         }
 
         @Override
